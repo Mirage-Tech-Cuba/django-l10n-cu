@@ -4,11 +4,15 @@ Cuban Localization (``l10n_cu``)
 
 ``l10n_cu`` is a Django app for adapting a product for a cuban market, with Provinces and Municipalities.
 
+-------
+Install
+-------
+    ``pip install django-l10n-cu``
+
 -----------
 Quick start
 -----------
-
-1. Add "l10n_cu" to your INSTALLED_APPS setting like this
+1. Add ``"l10n_cu"`` to your INSTALLED_APPS setting like this
 
     ``INSTALLED_APPS = [``
     ``...,``
