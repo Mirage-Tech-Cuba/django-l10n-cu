@@ -2,7 +2,7 @@
 Cuban Localization (``l10n_cu``)
 ================================
 
-``l10n_cu`` is a Django app for adapting a product for a cuban market, with Provinces and Municipalities.
+``l10n_cu`` is a Django app for adapting a product for a cuban market, with Provinces, Municipalities and Zip Codes.
 
 -------
 Install
@@ -27,6 +27,5 @@ Quick start
 ---------------
 Future Features
 ---------------
-* Zip Code of municipalities.
 * Small towns and other cities in municipalities.
 * `urls.py` file
