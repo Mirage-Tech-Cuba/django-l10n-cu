@@ -6,7 +6,6 @@ from django.utils.translation import gettext_lazy as _
 class Municipio(models.Model):
     # nombre = models.CharField(verbose_name=_('Nombre'), primary_key=True, max_length=50)
     nombre = models.CharField(verbose_name=_('Nombre'), max_length=50)
-    # zip_code = models.PositiveIntegerField(verbose_name=_('Codigo Postal'), unique=True)
     provincia = models.ForeignKey(to=Provincia, on_delete=models.PROTECT, related_name='municipios')
 
     class Meta:

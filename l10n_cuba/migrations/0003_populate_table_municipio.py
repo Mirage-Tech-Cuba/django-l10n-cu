@@ -138,11 +138,11 @@ def populate(apps, schema_editor):
         {'nombre': 'Sibanicú', 'provincia': p['cmg']},
         {'nombre': 'Florida', 'provincia': p['cmg']},
         {'nombre': 'Camagüey', 'provincia': p['cmg']},
-        {'nombre': 'Florida', 'provincia': p['cmg']},
         {'nombre': 'Vertientes', 'provincia': p['cmg']},
         {'nombre': 'Jimaguayú', 'provincia': p['cmg']},
         {'nombre': 'Santa Cruz del Sur', 'provincia': p['cmg']},
         {'nombre': 'Guáimaro', 'provincia': p['cmg']},
+        {'nombre': 'Najasa', 'provincia': p['cmg']},
 
         # Las Tunas
         {'nombre': 'Manatí', 'provincia': p['ltu']},
@@ -204,7 +204,7 @@ def populate(apps, schema_editor):
         {'nombre': 'Maisí', 'provincia': p['gtm']},
         {'nombre': 'Imías', 'provincia': p['gtm']},
         {'nombre': 'San Antonio del Sur', 'provincia': p['gtm']},
-        {'nombre': 'Camaneira', 'provincia': p['gtm']},
+        {'nombre': 'Caimanera', 'provincia': p['gtm']},
         {'nombre': 'Guantánamo', 'provincia': p['gtm']},
         {'nombre': 'Niceto Pérez', 'provincia': p['gtm']},
 
