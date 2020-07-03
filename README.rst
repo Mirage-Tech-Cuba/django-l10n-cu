@@ -1,6 +1,6 @@
-================================
+==================================
 Cuban Localization (``l10n_cuba``)
-================================
+==================================
 
 ``l10n_cuba`` is a Django app for adapting a product for a cuban market, with Provinces, Municipalities and Zip Codes.
 
