@@ -56,3 +56,4 @@ Future Features
 * `urls.py` file.
 * Django-Rest-Framework integration.
 * Methods for comparisons.
+* Map snippets for the whole country and provinces only. (help wanted)
