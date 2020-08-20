@@ -14,7 +14,7 @@ class CodigoPostal(models.Model):
         verbose_name_plural = _('Códigos Postales')
 
     def __str__(self):
-        return self.codigo_postal
+        return str(self.codigo_postal)
 
     @property
     def full_value(self):

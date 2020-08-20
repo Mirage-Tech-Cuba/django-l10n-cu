@@ -21,7 +21,9 @@ Quick start
 
 2. Run ``python manage.py migrate`` to create the ``l10n_cuba`` models.
 
-3. Start the development server and visit http://127.0.0.1:8000/admin/
+3. You need to specify the ``L10N_CUBA_ADMIN`` variable in your settings file, and set it to ``True`` enable the admin for this app.
+
+4. Start the development server and visit http://127.0.0.1:8000/admin/
    to view the models populated (you'll need the Admin app enabled).
 
 -----
