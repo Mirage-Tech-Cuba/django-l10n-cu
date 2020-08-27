@@ -56,6 +56,11 @@ Features
     >>> from l10n_cuba.validators import cubanCIValidator
     >>> ci = models.CharField(max_length=11, validators=[cubanCIValidator])
 
+* Custom Fields
+    >>> from l10n_cuba.fields import GroupedModelChoiceField
+    >>> from l10n_cuba.models import Municipio
+    >>> location = GroupedModelChoiceField(queryset=Municipio.objects.all(), choices_groupby='provincia',)
+
 ---------------
 Future Features
 ---------------
