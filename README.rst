@@ -49,6 +49,13 @@ Ask if a Municipality is within a Province
     >>> cardenas in p_mtz.municipios.all()
     True
 
+--------
+Features
+--------
+* Validators
+    >>> from l10n_cuba.validators import cubanCIValidator
+    >>> ci = models.CharField(max_length=11, validators=[cubanCIValidator])
+
 ---------------
 Future Features
 ---------------
