@@ -7,7 +7,7 @@ from django.utils.translation import gettext_lazy as _
 
 def cubanCIValidator(ci):
     ci = str(ci)
-    if not re.match(r"^[0-9]{11}", ci):
+    if not re.match(r"^[0-9]{11}$", ci):
         raise ValidationError(
             _('El CI debe tener 11 dígitos'),
             code='ci_invalid'
