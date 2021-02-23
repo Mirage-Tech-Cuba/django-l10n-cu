@@ -15,7 +15,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Provincia',
             fields=[
-                ('nombre', models.CharField(max_length=60, primary_key=True, serialize=False, verbose_name='Nombre')),
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('nombre', models.CharField(max_length=60, verbose_name='Nombre')),
                 ('nombre_corto', models.CharField(max_length=3, unique=True, verbose_name='Nombre Corto')),
             ],
             options={

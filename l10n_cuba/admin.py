@@ -4,11 +4,13 @@ from django.contrib import admin
 L10N_CUBA_ADMIN = getattr(settings, "L10N_CUBA_ADMIN", False)
 
 if L10N_CUBA_ADMIN:
-
     from .models import Provincia, Municipio, CodigoPostal
 
-    # Register your models here.
-    admin.site.register(Provincia)
+
+    @admin.register(Provincia)
+    class ProvinciaAdmin(admin.ModelAdmin):
+        list_display = ['nombre', 'nombre_corto', ]
+
 
     @admin.register(Municipio)
     class MunicipioAdmin(admin.ModelAdmin):
@@ -18,6 +20,7 @@ if L10N_CUBA_ADMIN:
 
         def codigos(self, obj):
             return ' - '.join(str(codigo.full_value) for codigo in obj.codigos_postales.all())
+
 
     @admin.register(CodigoPostal)
     class CodigoPostalAdmin(admin.ModelAdmin):
