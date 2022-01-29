@@ -4,4 +4,4 @@ from django.utils.translation import gettext_lazy as _
 
 class L10NCubaConfig(AppConfig):
     name = 'l10n_cuba'
-    verbose_name = _('Localización Cuba')
+    verbose_name = _('Cuban localization')

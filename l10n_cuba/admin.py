@@ -9,25 +9,23 @@ if L10N_CUBA_ADMIN:
 
     @admin.register(Provincia)
     class ProvinciaAdmin(admin.ModelAdmin):
-        list_display = ['nombre', 'nombre_corto', ]
+        list_display = ['name', 'short_name', ]
 
 
     @admin.register(Municipio)
     class MunicipioAdmin(admin.ModelAdmin):
-        list_filter = ['provincia']
-        list_display = ('provincia', 'nombre', 'codigos')
-        empty_value_display = '---'
+        list_filter = ['state']
+        list_display = ('state', 'name', 'zip_codes')
 
-        def codigos(self, obj):
-            return ' - '.join(str(codigo.full_value) for codigo in obj.codigos_postales.all())
+        def zip_codes(self, obj):
+            return ', '.join(str(zip_code.full_value) for zip_code in obj.zip_codes.all())
 
 
     @admin.register(CodigoPostal)
     class CodigoPostalAdmin(admin.ModelAdmin):
-        list_filter = ['municipio__provincia']
-        list_display = ('provincia', 'municipio', 'codigo_postal', 'localidad')
+        list_filter = ['municipality__state']
+        list_display = ('state', 'municipality', 'zip_code', 'place')
         ordering = ['municipio', 'codigo_postal']
-        empty_value_display = '---'
 
-        def provincia(self, obj):
-            return obj.municipio.provincia
+        def state(self, obj):
+            return obj.municipality.state
