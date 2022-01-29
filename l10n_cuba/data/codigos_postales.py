@@ -5,7 +5,7 @@ def get_municipio(apps):
         Municipio = apps.get_model('l10n_cuba', 'Municipio')
 
         for municipio in Municipio.objects.all():
-            p[municipio.nombre] = municipio
+            p[municipio.name] = municipio
         return p
     except:
-        print(f'Ocurrió un error al correr la migration')
+        print('Error running migration.')

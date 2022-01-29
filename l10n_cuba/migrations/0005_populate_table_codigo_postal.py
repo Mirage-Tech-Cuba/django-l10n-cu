@@ -13,269 +13,269 @@ def populate(apps, schema_editor):
 
     CODIGOS_POSTALES = [
         # Pinar del Rio
-        {'municipio': m['Sandino'], 'codigo_postal': 24150, 'localidad': None},
-        {'municipio': m['Mantua'], 'codigo_postal': 22200, 'localidad': None},
-        {'municipio': m['Minas de Matahambre'], 'codigo_postal': 22300, 'localidad': None},
-        {'municipio': m['Viñales'], 'codigo_postal': 22400, 'localidad': None},
-        {'municipio': m['La Palma'], 'codigo_postal': 22600, 'localidad': None},
-        {'municipio': m['Los Palacios'], 'codigo_postal': 22900, 'localidad': None},
-        {'municipio': m['Consolación del Sur'], 'codigo_postal': 23000, 'localidad': None},
-        {'municipio': m['Pinar del Río'], 'codigo_postal': 20100, 'localidad': None},
-        {'municipio': m['San Luis'], 'codigo_postal': 23100, 'localidad': None},
-        {'municipio': m['San Juan y Martínez'], 'codigo_postal': 23200, 'localidad': None},
-        {'municipio': m['Guane'], 'codigo_postal': 23300, 'localidad': None},
+        {'municipality': m['Sandino'], 'zip_code': 24150, 'place': None},
+        {'municipality': m['Mantua'], 'zip_code': 22200, 'place': None},
+        {'municipality': m['Minas de Matahambre'], 'zip_code': 22300, 'place': None},
+        {'municipality': m['Viñales'], 'zip_code': 22400, 'place': None},
+        {'municipality': m['La Palma'], 'zip_code': 22600, 'place': None},
+        {'municipality': m['Los Palacios'], 'zip_code': 22900, 'place': None},
+        {'municipality': m['Consolación del Sur'], 'zip_code': 23000, 'place': None},
+        {'municipality': m['Pinar del Río'], 'zip_code': 20100, 'place': None},
+        {'municipality': m['San Luis'], 'zip_code': 23100, 'place': None},
+        {'municipality': m['San Juan y Martínez'], 'zip_code': 23200, 'place': None},
+        {'municipality': m['Guane'], 'zip_code': 23300, 'place': None},
 
         # Artemisa
-        {'municipio': m['Bahía Honda'], 'codigo_postal': 22600, 'localidad': None},
-        {'municipio': m['Mariel'], 'codigo_postal': 32100, 'localidad': None},
-        {'municipio': m['Guanajay'], 'codigo_postal': 32200, 'localidad': None},
-        {'municipio': m['Caimito'], 'codigo_postal': 32300, 'localidad': None},
-        {'municipio': m['Bauta'], 'codigo_postal': 32400, 'localidad': None},
-        {'municipio': m['San Antonio de los Baños'], 'codigo_postal': 32500, 'localidad': None},
-        {'municipio': m['Güira de Melena'], 'codigo_postal': 33600, 'localidad': None},
-        {'municipio': m['Alquízar'], 'codigo_postal': 33700, 'localidad': None},
-        {'municipio': m['Artemisa'], 'codigo_postal': 33800, 'localidad': None},
-        {'municipio': m['Candelaria'], 'codigo_postal': 22700, 'localidad': None},
-        {'municipio': m['San Cristóbal'], 'codigo_postal': 22800, 'localidad': None},
+        {'municipality': m['Bahía Honda'], 'zip_code': 22600, 'place': None},
+        {'municipality': m['Mariel'], 'zip_code': 32100, 'place': None},
+        {'municipality': m['Guanajay'], 'zip_code': 32200, 'place': None},
+        {'municipality': m['Caimito'], 'zip_code': 32300, 'place': None},
+        {'municipality': m['Bauta'], 'zip_code': 32400, 'place': None},
+        {'municipality': m['San Antonio de los Baños'], 'zip_code': 32500, 'place': None},
+        {'municipality': m['Güira de Melena'], 'zip_code': 33600, 'place': None},
+        {'municipality': m['Alquízar'], 'zip_code': 33700, 'place': None},
+        {'municipality': m['Artemisa'], 'zip_code': 33800, 'place': None},
+        {'municipality': m['Candelaria'], 'zip_code': 22700, 'place': None},
+        {'municipality': m['San Cristóbal'], 'zip_code': 22800, 'place': None},
 
         # La Habana
-        {'municipio': m['Playa'], 'codigo_postal': 11300, 'localidad': None},
-        {'municipio': m['Plaza de la Revolución'], 'codigo_postal': 10400, 'localidad': None},
-        {'municipio': m['Centro Habana'], 'codigo_postal': 10200, 'localidad': None},
-        {'municipio': m['La Habana Vieja'], 'codigo_postal': 10100, 'localidad': None},
-        {'municipio': m['Regla'], 'codigo_postal': 11200, 'localidad': None},
-        {'municipio': m['La Habana del Este'], 'codigo_postal': 10900, 'localidad': None},
-        {'municipio': m['Guanabacoa'], 'codigo_postal': 11100, 'localidad': None},
-        {'municipio': m['San Miguel del Padrón'], 'codigo_postal': 11000, 'localidad': None},
-        {'municipio': m['Diez de Octubre'], 'codigo_postal': 10700, 'localidad': None},
-        {'municipio': m['Diez de Octubre'], 'codigo_postal': 10500, 'localidad': None},
-        {'municipio': m['Cerro'], 'codigo_postal': 10600, 'localidad': None},
-        {'municipio': m['Marianao'], 'codigo_postal': 11500, 'localidad': None},
-        {'municipio': m['La Lisa'], 'codigo_postal': 17100, 'localidad': None},
-        {'municipio': m['Boyeros'], 'codigo_postal': 10800, 'localidad': None},
-        {'municipio': m['Arroyo Naranjo'], 'codigo_postal': 10900, 'localidad': None},
-        {'municipio': m['Cotorro'], 'codigo_postal': 14000, 'localidad': None},
+        {'municipality': m['Playa'], 'zip_code': 11300, 'place': None},
+        {'municipality': m['Plaza de la Revolución'], 'zip_code': 10400, 'place': None},
+        {'municipality': m['Centro Habana'], 'zip_code': 10200, 'place': None},
+        {'municipality': m['La Habana Vieja'], 'zip_code': 10100, 'place': None},
+        {'municipality': m['Regla'], 'zip_code': 11200, 'place': None},
+        {'municipality': m['La Habana del Este'], 'zip_code': 10900, 'place': None},
+        {'municipality': m['Guanabacoa'], 'zip_code': 11100, 'place': None},
+        {'municipality': m['San Miguel del Padrón'], 'zip_code': 11000, 'place': None},
+        {'municipality': m['Diez de Octubre'], 'zip_code': 10700, 'place': None},
+        {'municipality': m['Diez de Octubre'], 'zip_code': 10500, 'place': None},
+        {'municipality': m['Cerro'], 'zip_code': 10600, 'place': None},
+        {'municipality': m['Marianao'], 'zip_code': 11500, 'place': None},
+        {'municipality': m['La Lisa'], 'zip_code': 17100, 'place': None},
+        {'municipality': m['Boyeros'], 'zip_code': 10800, 'place': None},
+        {'municipality': m['Arroyo Naranjo'], 'zip_code': 10900, 'place': None},
+        {'municipality': m['Cotorro'], 'zip_code': 14000, 'place': None},
 
         # Mayabeque
-        {'municipio': m['Bejucal'], 'codigo_postal': 32600, 'localidad': None},
-        {'municipio': m['San José de las Lajas'], 'codigo_postal': 32700, 'localidad': None},
-        {'municipio': m['Jaruco'], 'codigo_postal': 32800, 'localidad': None},
-        {'municipio': m['Santa Cruz del Norte'], 'codigo_postal': 32900, 'localidad': None},
-        {'municipio': m['Madruga'], 'codigo_postal': 33000, 'localidad': None},
-        {'municipio': m['Nueva Paz'], 'codigo_postal': 33100, 'localidad': None},
-        {'municipio': m['San Nicolás'], 'codigo_postal': 33200, 'localidad': None},
-        {'municipio': m['Güines'], 'codigo_postal': 33900, 'localidad': None},
-        {'municipio': m['Batabanó'], 'codigo_postal': 33400, 'localidad': None},
-        {'municipio': m['Quivicán'], 'codigo_postal': 33500, 'localidad': None},
-        {'municipio': m['Melena del Sur'], 'codigo_postal': 33300, 'localidad': None},
+        {'municipality': m['Bejucal'], 'zip_code': 32600, 'place': None},
+        {'municipality': m['San José de las Lajas'], 'zip_code': 32700, 'place': None},
+        {'municipality': m['Jaruco'], 'zip_code': 32800, 'place': None},
+        {'municipality': m['Santa Cruz del Norte'], 'zip_code': 32900, 'place': None},
+        {'municipality': m['Madruga'], 'zip_code': 33000, 'place': None},
+        {'municipality': m['Nueva Paz'], 'zip_code': 33100, 'place': None},
+        {'municipality': m['San Nicolás'], 'zip_code': 33200, 'place': None},
+        {'municipality': m['Güines'], 'zip_code': 33900, 'place': None},
+        {'municipality': m['Batabanó'], 'zip_code': 33400, 'place': None},
+        {'municipality': m['Quivicán'], 'zip_code': 33500, 'place': None},
+        {'municipality': m['Melena del Sur'], 'zip_code': 33300, 'place': None},
 
         # Matanzas
-        {'municipio': m['Matanzas'], 'codigo_postal': 40100, 'localidad': None},
-        {'municipio': m['Cárdenas'], 'codigo_postal': 42110, 'localidad': None},
-        {'municipio': m['Cárdenas'], 'codigo_postal': 42200, 'localidad': 'Varadero'},  # Varadero
-        {'municipio': m['Martí'], 'codigo_postal': 42300, 'localidad': None},
-        {'municipio': m['Colón'], 'codigo_postal': 42400, 'localidad': None},
-        {'municipio': m['Perico'], 'codigo_postal': 42500, 'localidad': None},
-        {'municipio': m['Jovellanos'], 'codigo_postal': 42600, 'localidad': None},
-        {'municipio': m['Pedro Betancourt'], 'codigo_postal': 42700, 'localidad': None},
-        {'municipio': m['Limonar'], 'codigo_postal': 42800, 'localidad': None},
-        {'municipio': m['Unión de Reyes'], 'codigo_postal': 42900, 'localidad': None},
-        {'municipio': m['Ciénaga de Zapata'], 'codigo_postal': 43000, 'localidad': None},
-        {'municipio': m['Jagüey Grande'], 'codigo_postal': 43100, 'localidad': None},
-        {'municipio': m['Calimete'], 'codigo_postal': 43200, 'localidad': None},
-        {'municipio': m['Los Arabos'], 'codigo_postal': 43300, 'localidad': None},
+        {'municipality': m['Matanzas'], 'zip_code': 40100, 'place': None},
+        {'municipality': m['Cárdenas'], 'zip_code': 42110, 'place': None},
+        {'municipality': m['Cárdenas'], 'zip_code': 42200, 'place': 'Varadero'},  # Varadero
+        {'municipality': m['Martí'], 'zip_code': 42300, 'place': None},
+        {'municipality': m['Colón'], 'zip_code': 42400, 'place': None},
+        {'municipality': m['Perico'], 'zip_code': 42500, 'place': None},
+        {'municipality': m['Jovellanos'], 'zip_code': 42600, 'place': None},
+        {'municipality': m['Pedro Betancourt'], 'zip_code': 42700, 'place': None},
+        {'municipality': m['Limonar'], 'zip_code': 42800, 'place': None},
+        {'municipality': m['Unión de Reyes'], 'zip_code': 42900, 'place': None},
+        {'municipality': m['Ciénaga de Zapata'], 'zip_code': 43000, 'place': None},
+        {'municipality': m['Jagüey Grande'], 'zip_code': 43100, 'place': None},
+        {'municipality': m['Calimete'], 'zip_code': 43200, 'place': None},
+        {'municipality': m['Los Arabos'], 'zip_code': 43300, 'place': None},
 
         # Villa Clara
-        {'municipio': m['Corralillo'], 'codigo_postal': 52100, 'localidad': None},
-        {'municipio': m['Quemado de Güines'], 'codigo_postal': 52200, 'localidad': None},
-        {'municipio': m['Sagua la Grande'], 'codigo_postal': 53310, 'localidad': None},
-        {'municipio': m['Encrucijada'], 'codigo_postal': 52400, 'localidad': None},
-        {'municipio': m['Camajuaní'], 'codigo_postal': 52500, 'localidad': None},
-        {'municipio': m['Caibarién'], 'codigo_postal': 52610, 'localidad': None},
-        {'municipio': m['Remedios'], 'codigo_postal': 52700, 'localidad': None},
-        {'municipio': m['Placetas'], 'codigo_postal': 52800, 'localidad': None},
-        {'municipio': m['Santa Clara'], 'codigo_postal': 50100, 'localidad': None},
-        {'municipio': m['Cifuentes'], 'codigo_postal': 52900, 'localidad': None},
-        {'municipio': m['Santo Domingo'], 'codigo_postal': 53100, 'localidad': None},
-        {'municipio': m['Ranchuelo'], 'codigo_postal': 53100, 'localidad': None},
-        {'municipio': m['Manicaragua'], 'codigo_postal': 53200, 'localidad': None},
+        {'municipality': m['Corralillo'], 'zip_code': 52100, 'place': None},
+        {'municipality': m['Quemado de Güines'], 'zip_code': 52200, 'place': None},
+        {'municipality': m['Sagua la Grande'], 'zip_code': 53310, 'place': None},
+        {'municipality': m['Encrucijada'], 'zip_code': 52400, 'place': None},
+        {'municipality': m['Camajuaní'], 'zip_code': 52500, 'place': None},
+        {'municipality': m['Caibarién'], 'zip_code': 52610, 'place': None},
+        {'municipality': m['Remedios'], 'zip_code': 52700, 'place': None},
+        {'municipality': m['Placetas'], 'zip_code': 52800, 'place': None},
+        {'municipality': m['Santa Clara'], 'zip_code': 50100, 'place': None},
+        {'municipality': m['Cifuentes'], 'zip_code': 52900, 'place': None},
+        {'municipality': m['Santo Domingo'], 'zip_code': 53100, 'place': None},
+        {'municipality': m['Ranchuelo'], 'zip_code': 53100, 'place': None},
+        {'municipality': m['Manicaragua'], 'zip_code': 53200, 'place': None},
 
         # Cienfuegos
-        {'municipio': m['Abreus'], 'codigo_postal': 57700, 'localidad': None},
-        {'municipio': m['Aguada de Pasajeros'], 'codigo_postal': 57100, 'localidad': None},
-        {'municipio': m['Cienfuegos'], 'codigo_postal': 55100, 'localidad': None},
-        {'municipio': m['Cruces'], 'codigo_postal': 57500, 'localidad': None},
-        {'municipio': m['Cumanayagua'], 'codigo_postal': 57600, 'localidad': None},
-        {'municipio': m['Lajas'], 'codigo_postal': 57400, 'localidad': None},
-        {'municipio': m['Palmira'], 'codigo_postal': 57300, 'localidad': None},
-        {'municipio': m['Rodas'], 'codigo_postal': 57200, 'localidad': None},
+        {'municipality': m['Abreus'], 'zip_code': 57700, 'place': None},
+        {'municipality': m['Aguada de Pasajeros'], 'zip_code': 57100, 'place': None},
+        {'municipality': m['Cienfuegos'], 'zip_code': 55100, 'place': None},
+        {'municipality': m['Cruces'], 'zip_code': 57500, 'place': None},
+        {'municipality': m['Cumanayagua'], 'zip_code': 57600, 'place': None},
+        {'municipality': m['Lajas'], 'zip_code': 57400, 'place': None},
+        {'municipality': m['Palmira'], 'zip_code': 57300, 'place': None},
+        {'municipality': m['Rodas'], 'zip_code': 57200, 'place': None},
 
         # Sancti Spiritus
-        {'municipio': m['Yaguajay'], 'codigo_postal': 62100, 'localidad': None},
-        {'municipio': m['Jatibonico'], 'codigo_postal': 62200, 'localidad': None},
-        {'municipio': m['Taguasco'], 'codigo_postal': 62300, 'localidad': None},
-        {'municipio': m['Cabaiguán'], 'codigo_postal': 62410, 'localidad': None},
-        {'municipio': m['Fomento'], 'codigo_postal': 62500, 'localidad': None},
-        {'municipio': m['Trinidad'], 'codigo_postal': 62600, 'localidad': None},
-        {'municipio': m['Sancti Spíritus'], 'codigo_postal': 60100, 'localidad': None},
-        {'municipio': m['La Sierpe'], 'codigo_postal': 62700, 'localidad': None},
+        {'municipality': m['Yaguajay'], 'zip_code': 62100, 'place': None},
+        {'municipality': m['Jatibonico'], 'zip_code': 62200, 'place': None},
+        {'municipality': m['Taguasco'], 'zip_code': 62300, 'place': None},
+        {'municipality': m['Cabaiguán'], 'zip_code': 62410, 'place': None},
+        {'municipality': m['Fomento'], 'zip_code': 62500, 'place': None},
+        {'municipality': m['Trinidad'], 'zip_code': 62600, 'place': None},
+        {'municipality': m['Sancti Spíritus'], 'zip_code': 60100, 'place': None},
+        {'municipality': m['La Sierpe'], 'zip_code': 62700, 'place': None},
 
         # Ciego de Avila
-        {'municipio': m['Chambas'], 'codigo_postal': 67100, 'localidad': None},
-        {'municipio': m['Morón'], 'codigo_postal': 67210, 'localidad': None},
-        {'municipio': m['Bolivia'], 'codigo_postal': 67300, 'localidad': None},
-        {'municipio': m['Primero de Enero'], 'codigo_postal': 67400, 'localidad': None},
-        {'municipio': m['Ciro Redondo'], 'codigo_postal': 67500, 'localidad': None},
-        {'municipio': m['Florencia'], 'codigo_postal': 67600, 'localidad': None},
-        {'municipio': m['Majagua'], 'codigo_postal': 67700, 'localidad': None},
-        {'municipio': m['Ciego de Ávila'], 'codigo_postal': 65100, 'localidad': None},
-        {'municipio': m['Venezuela'], 'codigo_postal': 67800, 'localidad': None},
-        {'municipio': m['Baraguá'], 'codigo_postal': 67900, 'localidad': None},
+        {'municipality': m['Chambas'], 'zip_code': 67100, 'place': None},
+        {'municipality': m['Morón'], 'zip_code': 67210, 'place': None},
+        {'municipality': m['Bolivia'], 'zip_code': 67300, 'place': None},
+        {'municipality': m['Primero de Enero'], 'zip_code': 67400, 'place': None},
+        {'municipality': m['Ciro Redondo'], 'zip_code': 67500, 'place': None},
+        {'municipality': m['Florencia'], 'zip_code': 67600, 'place': None},
+        {'municipality': m['Majagua'], 'zip_code': 67700, 'place': None},
+        {'municipality': m['Ciego de Ávila'], 'zip_code': 65100, 'place': None},
+        {'municipality': m['Venezuela'], 'zip_code': 67800, 'place': None},
+        {'municipality': m['Baraguá'], 'zip_code': 67900, 'place': None},
 
         # Camaguey
-        {'municipio': m['Carlos Manuel de Céspedes'], 'codigo_postal': 72100, 'localidad': None},
-        {'municipio': m['Carlos Manuel de Céspedes'], 'codigo_postal': 74100, 'localidad': 'Piedrecitas'},  # Piedrecitas
-        {'municipio': m['Carlos Manuel de Céspedes'], 'codigo_postal': 74110, 'localidad': 'República Dominicana'},  # República Dominicana
-        {'municipio': m['Esmeralda'], 'codigo_postal': 72200, 'localidad': None},
-        {'municipio': m['Esmeralda'], 'codigo_postal': 74120, 'localidad': 'Brasil'},  # Brasil
-        {'municipio': m['Esmeralda'], 'codigo_postal': 74130, 'localidad': 'Jiquí'},  # Jiquí
-        {'municipio': m['Esmeralda'], 'codigo_postal': 74140, 'localidad': 'Lombillo'},  # Lombillo
-        {'municipio': m['Esmeralda'], 'codigo_postal': 74150, 'localidad': 'Tabor'},  # Tabor
-        {'municipio': m['Esmeralda'], 'codigo_postal': 74170, 'localidad': 'Donato'},  # Donato
-        {'municipio': m['Sierra de Cubitas'], 'codigo_postal': 72300, 'localidad': None},
-        {'municipio': m['Sierra de Cubitas'], 'codigo_postal': 74180, 'localidad': 'Sierra de Cubitas'},  # Sierra de Cubitas
-        {'municipio': m['Sierra de Cubitas'], 'codigo_postal': 74190, 'localidad': 'La Gloria'},  # La Gloria
-        {'municipio': m['Minas'], 'codigo_postal': 72400, 'localidad': None},
-        {'municipio': m['Minas'], 'codigo_postal': 72400, 'localidad': 'Senado'},  # Senado
-        {'municipio': m['Minas'], 'codigo_postal': 72400, 'localidad': 'La Gabriela'},  # La Gabriela
-        {'municipio': m['Minas'], 'codigo_postal': 72400, 'localidad': 'Lugareño'},  # Lugareño
-        {'municipio': m['Minas'], 'codigo_postal': 72400, 'localidad': 'Redención'},  # Redención
-        {'municipio': m['Nuevitas'], 'codigo_postal': 72510, 'localidad': None},
-        {'municipio': m['Nuevitas'], 'codigo_postal': 72510, 'localidad': 'Nuevitas 1'},  # Nuevitas 1
-        {'municipio': m['Nuevitas'], 'codigo_postal': 72520, 'localidad': 'Nuevitas 2'},  # Nuevitas 2
-        {'municipio': m['Nuevitas'], 'codigo_postal': 72530, 'localidad': 'Nuevitas 3'},  # Nuevitas 3
-        {'municipio': m['Nuevitas'], 'codigo_postal': 74250, 'localidad': 'Playa Santa Lucía'},  # Playa Santa Lucía
-        {'municipio': m['Nuevitas'], 'codigo_postal': 74260, 'localidad': 'Puerto tarafa'},  # Puerto tarafa
-        {'municipio': m['Nuevitas'], 'codigo_postal': 74270, 'localidad': 'Termoeléctrica 10 de Octubre'},  # Termoeléctrica 10 de Octubre
-        {'municipio': m['Sibanicú'], 'codigo_postal': 72700, 'localidad': None},
-        {'municipio': m['Sibanicú'], 'codigo_postal': 74370, 'localidad': 'Najasa'},  # Najasa
-        {'municipio': m['Sibanicú'], 'codigo_postal': 74380, 'localidad': 'Hatuey'},  # Hatuey
-        {'municipio': m['Sibanicú'], 'codigo_postal': 74390, 'localidad': 'Siboney'},  # Siboney
-        {'municipio': m['Sibanicú'], 'codigo_postal': 74400, 'localidad': 'Patricio Lumumba'},  # Patricio Lumumba
-        {'municipio': m['Florida'], 'codigo_postal': 72810, 'localidad': None},
-        {'municipio': m['Florida'], 'codigo_postal': 72810, 'localidad': 'Florida 1'},  # Florida 1
-        {'municipio': m['Florida'], 'codigo_postal': 72820, 'localidad': 'Florida 2'},  # Florida 2
-        {'municipio': m['Florida'], 'codigo_postal': 72830, 'localidad': 'Florida 3'},  # Florida 3
-        {'municipio': m['Florida'], 'codigo_postal': 74420, 'localidad': 'Agramonte'},  # Agramonte
-        {'municipio': m['Florida'], 'codigo_postal': 74430, 'localidad': 'La Vallita'},  # La Vallita
-        {'municipio': m['Florida'], 'codigo_postal': 74440, 'localidad': 'La Tomatera'},  # La Tomatera
-        {'municipio': m['Florida'], 'codigo_postal': 74450, 'localidad': 'San Antonio'},  # San Antonio
-        {'municipio': m['Camagüey'], 'codigo_postal': 70100, 'localidad': None},
-        {'municipio': m['Camagüey'], 'codigo_postal': 70200, 'localidad': None},
-        {'municipio': m['Camagüey'], 'codigo_postal': 74100, 'localidad': 'Altagracia'},  # Altagracia
-        {'municipio': m['Vertientes'], 'codigo_postal': 72900, 'localidad': None},
-        {'municipio': m['Vertientes'], 'codigo_postal': 74460, 'localidad': 'Aguilar'},  # Aguilar
-        {'municipio': m['Vertientes'], 'codigo_postal': 74470, 'localidad': 'Los ángeles'},  # Los ángeles
-        {'municipio': m['Vertientes'], 'codigo_postal': 74480, 'localidad': 'Batalla de las Guásimas'},  # Batalla de las Guásimas
-        {'municipio': m['Jimaguayú'], 'codigo_postal': 73000, 'localidad': None},
-        {'municipio': m['Jimaguayú'], 'codigo_postal': 74490, 'localidad': 'Contramaestre'},  # Contramaestre
-        {'municipio': m['Jimaguayú'], 'codigo_postal': 74500, 'localidad': 'Rescate de Sanguily'},  # Rescate de Sanguily
-        {'municipio': m['Santa Cruz del Sur'], 'codigo_postal': 73200, 'localidad': None},
-        {'municipio': m['Santa Cruz del Sur'], 'codigo_postal': 74510, 'localidad': 'Cándido González'},  # Cándido González
-        {'municipio': m['Santa Cruz del Sur'], 'codigo_postal': 74520, 'localidad': 'Haití'},  # Haití
-        {'municipio': m['Santa Cruz del Sur'], 'codigo_postal': 74530, 'localidad': 'Cuatro Compañeros'},  # Cuatro Compañeros
-        {'municipio': m['Santa Cruz del Sur'], 'codigo_postal': 74540, 'localidad': 'Jagua Tres'},  # Jagua Tres
-        {'municipio': m['Santa Cruz del Sur'], 'codigo_postal': 74680, 'localidad': 'La Jagua'},  # La Jagua
-        {'municipio': m['Guáimaro'], 'codigo_postal': 72600, 'localidad': None},
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74290, 'localidad': 'Camalote'},  # Camalote
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74300, 'localidad': 'Cascorro'},  # Cascorro
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74310, 'localidad': 'Nuevo Palo Seco'},  # Nuevo Palo Seco
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74320, 'localidad': 'Galbis'},  # Galbis
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74330, 'localidad': 'Martí'},  # Martí
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74340, 'localidad': 'Palo Seco'},  # Palo Seco
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74350, 'localidad': 'Santa Lucía'},  # Santa Lucía
-        {'municipio': m['Guáimaro'], 'codigo_postal': 74360, 'localidad': 'San Miguel de Bagá'},  # San Miguel de Bagá
-        {'municipio': m['Najasa'], 'codigo_postal': 73100, 'localidad': None},
-        {'municipio': m['Najasa'], 'codigo_postal': 73100, 'localidad': 'Cuatro Caminos'},  # Cuatro Caminos
+        {'municipality': m['Carlos Manuel de Céspedes'], 'zip_code': 72100, 'place': None},
+        {'municipality': m['Carlos Manuel de Céspedes'], 'zip_code': 74100, 'place': 'Piedrecitas'},  # Piedrecitas
+        {'municipality': m['Carlos Manuel de Céspedes'], 'zip_code': 74110, 'place': 'República Dominicana'},  # República Dominicana
+        {'municipality': m['Esmeralda'], 'zip_code': 72200, 'place': None},
+        {'municipality': m['Esmeralda'], 'zip_code': 74120, 'place': 'Brasil'},  # Brasil
+        {'municipality': m['Esmeralda'], 'zip_code': 74130, 'place': 'Jiquí'},  # Jiquí
+        {'municipality': m['Esmeralda'], 'zip_code': 74140, 'place': 'Lombillo'},  # Lombillo
+        {'municipality': m['Esmeralda'], 'zip_code': 74150, 'place': 'Tabor'},  # Tabor
+        {'municipality': m['Esmeralda'], 'zip_code': 74170, 'place': 'Donato'},  # Donato
+        {'municipality': m['Sierra de Cubitas'], 'zip_code': 72300, 'place': None},
+        {'municipality': m['Sierra de Cubitas'], 'zip_code': 74180, 'place': 'Sierra de Cubitas'},  # Sierra de Cubitas
+        {'municipality': m['Sierra de Cubitas'], 'zip_code': 74190, 'place': 'La Gloria'},  # La Gloria
+        {'municipality': m['Minas'], 'zip_code': 72400, 'place': None},
+        {'municipality': m['Minas'], 'zip_code': 72400, 'place': 'Senado'},  # Senado
+        {'municipality': m['Minas'], 'zip_code': 72400, 'place': 'La Gabriela'},  # La Gabriela
+        {'municipality': m['Minas'], 'zip_code': 72400, 'place': 'Lugareño'},  # Lugareño
+        {'municipality': m['Minas'], 'zip_code': 72400, 'place': 'Redención'},  # Redención
+        {'municipality': m['Nuevitas'], 'zip_code': 72510, 'place': None},
+        {'municipality': m['Nuevitas'], 'zip_code': 72510, 'place': 'Nuevitas 1'},  # Nuevitas 1
+        {'municipality': m['Nuevitas'], 'zip_code': 72520, 'place': 'Nuevitas 2'},  # Nuevitas 2
+        {'municipality': m['Nuevitas'], 'zip_code': 72530, 'place': 'Nuevitas 3'},  # Nuevitas 3
+        {'municipality': m['Nuevitas'], 'zip_code': 74250, 'place': 'Playa Santa Lucía'},  # Playa Santa Lucía
+        {'municipality': m['Nuevitas'], 'zip_code': 74260, 'place': 'Puerto tarafa'},  # Puerto tarafa
+        {'municipality': m['Nuevitas'], 'zip_code': 74270, 'place': 'Termoeléctrica 10 de Octubre'},  # Termoeléctrica 10 de Octubre
+        {'municipality': m['Sibanicú'], 'zip_code': 72700, 'place': None},
+        {'municipality': m['Sibanicú'], 'zip_code': 74370, 'place': 'Najasa'},  # Najasa
+        {'municipality': m['Sibanicú'], 'zip_code': 74380, 'place': 'Hatuey'},  # Hatuey
+        {'municipality': m['Sibanicú'], 'zip_code': 74390, 'place': 'Siboney'},  # Siboney
+        {'municipality': m['Sibanicú'], 'zip_code': 74400, 'place': 'Patricio Lumumba'},  # Patricio Lumumba
+        {'municipality': m['Florida'], 'zip_code': 72810, 'place': None},
+        {'municipality': m['Florida'], 'zip_code': 72810, 'place': 'Florida 1'},  # Florida 1
+        {'municipality': m['Florida'], 'zip_code': 72820, 'place': 'Florida 2'},  # Florida 2
+        {'municipality': m['Florida'], 'zip_code': 72830, 'place': 'Florida 3'},  # Florida 3
+        {'municipality': m['Florida'], 'zip_code': 74420, 'place': 'Agramonte'},  # Agramonte
+        {'municipality': m['Florida'], 'zip_code': 74430, 'place': 'La Vallita'},  # La Vallita
+        {'municipality': m['Florida'], 'zip_code': 74440, 'place': 'La Tomatera'},  # La Tomatera
+        {'municipality': m['Florida'], 'zip_code': 74450, 'place': 'San Antonio'},  # San Antonio
+        {'municipality': m['Camagüey'], 'zip_code': 70100, 'place': None},
+        {'municipality': m['Camagüey'], 'zip_code': 70200, 'place': None},
+        {'municipality': m['Camagüey'], 'zip_code': 74100, 'place': 'Altagracia'},  # Altagracia
+        {'municipality': m['Vertientes'], 'zip_code': 72900, 'place': None},
+        {'municipality': m['Vertientes'], 'zip_code': 74460, 'place': 'Aguilar'},  # Aguilar
+        {'municipality': m['Vertientes'], 'zip_code': 74470, 'place': 'Los ángeles'},  # Los ángeles
+        {'municipality': m['Vertientes'], 'zip_code': 74480, 'place': 'Batalla de las Guásimas'},  # Batalla de las Guásimas
+        {'municipality': m['Jimaguayú'], 'zip_code': 73000, 'place': None},
+        {'municipality': m['Jimaguayú'], 'zip_code': 74490, 'place': 'Contramaestre'},  # Contramaestre
+        {'municipality': m['Jimaguayú'], 'zip_code': 74500, 'place': 'Rescate de Sanguily'},  # Rescate de Sanguily
+        {'municipality': m['Santa Cruz del Sur'], 'zip_code': 73200, 'place': None},
+        {'municipality': m['Santa Cruz del Sur'], 'zip_code': 74510, 'place': 'Cándido González'},  # Cándido González
+        {'municipality': m['Santa Cruz del Sur'], 'zip_code': 74520, 'place': 'Haití'},  # Haití
+        {'municipality': m['Santa Cruz del Sur'], 'zip_code': 74530, 'place': 'Cuatro Compañeros'},  # Cuatro Compañeros
+        {'municipality': m['Santa Cruz del Sur'], 'zip_code': 74540, 'place': 'Jagua Tres'},  # Jagua Tres
+        {'municipality': m['Santa Cruz del Sur'], 'zip_code': 74680, 'place': 'La Jagua'},  # La Jagua
+        {'municipality': m['Guáimaro'], 'zip_code': 72600, 'place': None},
+        {'municipality': m['Guáimaro'], 'zip_code': 74290, 'place': 'Camalote'},  # Camalote
+        {'municipality': m['Guáimaro'], 'zip_code': 74300, 'place': 'Cascorro'},  # Cascorro
+        {'municipality': m['Guáimaro'], 'zip_code': 74310, 'place': 'Nuevo Palo Seco'},  # Nuevo Palo Seco
+        {'municipality': m['Guáimaro'], 'zip_code': 74320, 'place': 'Galbis'},  # Galbis
+        {'municipality': m['Guáimaro'], 'zip_code': 74330, 'place': 'Martí'},  # Martí
+        {'municipality': m['Guáimaro'], 'zip_code': 74340, 'place': 'Palo Seco'},  # Palo Seco
+        {'municipality': m['Guáimaro'], 'zip_code': 74350, 'place': 'Santa Lucía'},  # Santa Lucía
+        {'municipality': m['Guáimaro'], 'zip_code': 74360, 'place': 'San Miguel de Bagá'},  # San Miguel de Bagá
+        {'municipality': m['Najasa'], 'zip_code': 73100, 'place': None},
+        {'municipality': m['Najasa'], 'zip_code': 73100, 'place': 'Cuatro Caminos'},  # Cuatro Caminos
 
         # Las Tunas
-        {'municipio': m['Manatí'], 'codigo_postal': 77100, 'localidad': None},
-        {'municipio': m['Puerto Padre'], 'codigo_postal': 77200, 'localidad': None},
-        {'municipio': m['Jesús Menéndez'], 'codigo_postal': 77300, 'localidad': None},
-        {'municipio': m['Majibacoa'], 'codigo_postal': 77400, 'localidad': None},
-        {'municipio': m['Las Tunas'], 'codigo_postal': 75500, 'localidad': None},
-        {'municipio': m['Las Tunas'], 'codigo_postal': 75100, 'localidad': None},
-        {'municipio': m['Jobabo'], 'codigo_postal': 77500, 'localidad': None},
-        {'municipio': m['Colombia'], 'codigo_postal': 77600, 'localidad': None},
-        {'municipio': m['Amancio'], 'codigo_postal': 77700, 'localidad': None},
+        {'municipality': m['Manatí'], 'zip_code': 77100, 'place': None},
+        {'municipality': m['Puerto Padre'], 'zip_code': 77200, 'place': None},
+        {'municipality': m['Jesús Menéndez'], 'zip_code': 77300, 'place': None},
+        {'municipality': m['Majibacoa'], 'zip_code': 77400, 'place': None},
+        {'municipality': m['Las Tunas'], 'zip_code': 75500, 'place': None},
+        {'municipality': m['Las Tunas'], 'zip_code': 75100, 'place': None},
+        {'municipality': m['Jobabo'], 'zip_code': 77500, 'place': None},
+        {'municipality': m['Colombia'], 'zip_code': 77600, 'place': None},
+        {'municipality': m['Amancio'], 'zip_code': 77700, 'place': None},
 
         # Holguin
-        {'municipio': m['Gibara'], 'codigo_postal': 82100, 'localidad': None},
-        {'municipio': m['Gibara'], 'codigo_postal': 84140, 'localidad': 'Velasco'},  # Velasco
-        {'municipio': m['Rafael Freyre'], 'codigo_postal': 83300, 'localidad': None},
-        {'municipio': m['Banes'], 'codigo_postal': 82300, 'localidad': None},
-        {'municipio': m['Antilla'], 'codigo_postal': 82400, 'localidad': None},
-        {'municipio': m['Báguanos'], 'codigo_postal': 82500, 'localidad': None},
-        {'municipio': m['Holguín'], 'codigo_postal': 80100, 'localidad': None},
-        {'municipio': m['Calixto García'], 'codigo_postal': 82600, 'localidad': None},
-        {'municipio': m['Calixto García'], 'codigo_postal': 82600, 'localidad': 'Buena Ventura'},  # Buena Ventura
-        {'municipio': m['Cacocum'], 'codigo_postal': 57200, 'localidad': None},
-        {'municipio': m['Urbano Noris'], 'codigo_postal': 82800, 'localidad': None},
-        {'municipio': m['Urbano Noris'], 'codigo_postal': 82800, 'localidad': 'San Germán'},  # San Germán
-        {'municipio': m['Cueto'], 'codigo_postal': 82900, 'localidad': None},
-        {'municipio': m['Mayarí'], 'codigo_postal': 83000, 'localidad': None},
-        {'municipio': m['Frank País'], 'codigo_postal': 83100, 'localidad': None},
-        {'municipio': m['Sagua de Tánamo'], 'codigo_postal': 83200, 'localidad': None},
-        {'municipio': m['Moa'], 'codigo_postal': 83300, 'localidad': None},
+        {'municipality': m['Gibara'], 'zip_code': 82100, 'place': None},
+        {'municipality': m['Gibara'], 'zip_code': 84140, 'place': 'Velasco'},  # Velasco
+        {'municipality': m['Rafael Freyre'], 'zip_code': 83300, 'place': None},
+        {'municipality': m['Banes'], 'zip_code': 82300, 'place': None},
+        {'municipality': m['Antilla'], 'zip_code': 82400, 'place': None},
+        {'municipality': m['Báguanos'], 'zip_code': 82500, 'place': None},
+        {'municipality': m['Holguín'], 'zip_code': 80100, 'place': None},
+        {'municipality': m['Calixto García'], 'zip_code': 82600, 'place': None},
+        {'municipality': m['Calixto García'], 'zip_code': 82600, 'place': 'Buena Ventura'},  # Buena Ventura
+        {'municipality': m['Cacocum'], 'zip_code': 57200, 'place': None},
+        {'municipality': m['Urbano Noris'], 'zip_code': 82800, 'place': None},
+        {'municipality': m['Urbano Noris'], 'zip_code': 82800, 'place': 'San Germán'},  # San Germán
+        {'municipality': m['Cueto'], 'zip_code': 82900, 'place': None},
+        {'municipality': m['Mayarí'], 'zip_code': 83000, 'place': None},
+        {'municipality': m['Frank País'], 'zip_code': 83100, 'place': None},
+        {'municipality': m['Sagua de Tánamo'], 'zip_code': 83200, 'place': None},
+        {'municipality': m['Moa'], 'zip_code': 83300, 'place': None},
 
         # Granma
-        {'municipio': m['Río Cauto'], 'codigo_postal': 87100, 'localidad': None},
-        {'municipio': m['Cauto Cristo'], 'codigo_postal': 87200, 'localidad': None},
-        {'municipio': m['Jiguaní'], 'codigo_postal': 87300, 'localidad': None},
-        {'municipio': m['Bayamo'], 'codigo_postal': 85100, 'localidad': None},
-        {'municipio': m['Yara'], 'codigo_postal': 87400, 'localidad': None},
-        {'municipio': m['Manzanillo'], 'codigo_postal': 87510, 'localidad': None},
-        {'municipio': m['Campechuela'], 'codigo_postal': 87600, 'localidad': None},
-        {'municipio': m['Media Luna'], 'codigo_postal': 87700, 'localidad': None},
-        {'municipio': m['Niquero'], 'codigo_postal': 87800, 'localidad': None},
-        {'municipio': m['Pilón'], 'codigo_postal': 87900, 'localidad': None},
-        {'municipio': m['Bartolomé Masó'], 'codigo_postal': 88000, 'localidad': None},
-        {'municipio': m['Buey Arriba'], 'codigo_postal': 88100, 'localidad': None},
-        {'municipio': m['Guisa'], 'codigo_postal': 88200, 'localidad': None},
+        {'municipality': m['Río Cauto'], 'zip_code': 87100, 'place': None},
+        {'municipality': m['Cauto Cristo'], 'zip_code': 87200, 'place': None},
+        {'municipality': m['Jiguaní'], 'zip_code': 87300, 'place': None},
+        {'municipality': m['Bayamo'], 'zip_code': 85100, 'place': None},
+        {'municipality': m['Yara'], 'zip_code': 87400, 'place': None},
+        {'municipality': m['Manzanillo'], 'zip_code': 87510, 'place': None},
+        {'municipality': m['Campechuela'], 'zip_code': 87600, 'place': None},
+        {'municipality': m['Media Luna'], 'zip_code': 87700, 'place': None},
+        {'municipality': m['Niquero'], 'zip_code': 87800, 'place': None},
+        {'municipality': m['Pilón'], 'zip_code': 87900, 'place': None},
+        {'municipality': m['Bartolomé Masó'], 'zip_code': 88000, 'place': None},
+        {'municipality': m['Buey Arriba'], 'zip_code': 88100, 'place': None},
+        {'municipality': m['Guisa'], 'zip_code': 88200, 'place': None},
 
         # Santiago de Cuba
-        {'municipio': m['Contramaestre'], 'codigo_postal': 92100, 'localidad': None},
-        {'municipio': m['Mella'], 'codigo_postal': 92200, 'localidad': None},
-        {'municipio': m['San Luis'], 'codigo_postal': 92300, 'localidad': None},
-        {'municipio': m['Segundo Frente'], 'codigo_postal': 92100, 'localidad': None},
-        {'municipio': m['Songo - La Maya'], 'codigo_postal': 92610, 'localidad': None},
-        {'municipio': m['Santiago de Cuba'], 'codigo_postal': 90100, 'localidad': None},
-        {'municipio': m['Palma Soriano'], 'codigo_postal': 92610, 'localidad': None},
-        {'municipio': m['Tercer Frente'], 'codigo_postal': 92700, 'localidad': None},
-        {'municipio': m['Guamá'], 'codigo_postal': 92800, 'localidad': None},
+        {'municipality': m['Contramaestre'], 'zip_code': 92100, 'place': None},
+        {'municipality': m['Mella'], 'zip_code': 92200, 'place': None},
+        {'municipality': m['San Luis'], 'zip_code': 92300, 'place': None},
+        {'municipality': m['Segundo Frente'], 'zip_code': 92100, 'place': None},
+        {'municipality': m['Songo - La Maya'], 'zip_code': 92610, 'place': None},
+        {'municipality': m['Santiago de Cuba'], 'zip_code': 90100, 'place': None},
+        {'municipality': m['Palma Soriano'], 'zip_code': 92610, 'place': None},
+        {'municipality': m['Tercer Frente'], 'zip_code': 92700, 'place': None},
+        {'municipality': m['Guamá'], 'zip_code': 92800, 'place': None},
 
         # Guantanamo
-        {'municipio': m['El Salvador'], 'codigo_postal': 97100, 'localidad': None},
-        {'municipio': m['Manuel Tames'], 'codigo_postal': 97700, 'localidad': None},
-        {'municipio': m['Yateras'], 'codigo_postal': 99420, 'localidad': None},
-        {'municipio': m['Baracoa'], 'codigo_postal': 97310, 'localidad': None},
-        {'municipio': m['Maisí'], 'codigo_postal': 99320, 'localidad': None},
-        {'municipio': m['Imías'], 'codigo_postal': 97500, 'localidad': None},
-        {'municipio': m['San Antonio del Sur'], 'codigo_postal': 97600, 'localidad': None},
-        {'municipio': m['Caimanera'], 'codigo_postal': 97800, 'localidad': None},
-        {'municipio': m['Guantánamo'], 'codigo_postal': 95100, 'localidad': None},
-        {'municipio': m['Niceto Pérez'], 'codigo_postal': 97900, 'localidad': None},
+        {'municipality': m['El Salvador'], 'zip_code': 97100, 'place': None},
+        {'municipality': m['Manuel Tames'], 'zip_code': 97700, 'place': None},
+        {'municipality': m['Yateras'], 'zip_code': 99420, 'place': None},
+        {'municipality': m['Baracoa'], 'zip_code': 97310, 'place': None},
+        {'municipality': m['Maisí'], 'zip_code': 99320, 'place': None},
+        {'municipality': m['Imías'], 'zip_code': 97500, 'place': None},
+        {'municipality': m['San Antonio del Sur'], 'zip_code': 97600, 'place': None},
+        {'municipality': m['Caimanera'], 'zip_code': 97800, 'place': None},
+        {'municipality': m['Guantánamo'], 'zip_code': 95100, 'place': None},
+        {'municipality': m['Niceto Pérez'], 'zip_code': 97900, 'place': None},
 
         # Isla de la Juventud
-        {'municipio': m['Isla de la Juventud'], 'codigo_postal': 25100, 'localidad': None},
-        {'municipio': m['Isla de la Juventud'], 'codigo_postal': 25300, 'localidad': None},
+        {'municipality': m['Isla de la Juventud'], 'zip_code': 25100, 'place': None},
+        {'municipality': m['Isla de la Juventud'], 'zip_code': 25300, 'place': None},
     ]
     with transaction.atomic():
         for codigos_postales in CODIGOS_POSTALES:
             cp = CodigoPostal.objects.create(
-                municipio=codigos_postales['municipio'],
-                codigo_postal=codigos_postales['codigo_postal'],
-                localidad=codigos_postales['localidad']
+                municipality=codigos_postales['municipality'],
+                zip_code=codigos_postales['zip_code'],
+                place=codigos_postales['place']
             )
             cp.save()
 

@@ -9,7 +9,7 @@ def cubanCIValidator(ci):
     ci = str(ci)
     if not re.match(r"^[0-9]{11}$", ci):
         raise ValidationError(
-            _('El CI debe tener 11 dígitos'),
+            _('The DNI must have 11 digits'),
             code='ci_invalid'
         )
     else:
@@ -27,6 +27,6 @@ def cubanCIValidator(ci):
             fecha = datetime(year_final, mes, dia)
         except Exception as e:
             raise ValidationError(
-                _('El CI no corresponde con un número válido: ' + str(e)),
+                _('The DNI seems to have invalid numbers: ' + str(e)),
                 code='ci_invalid'
             )
